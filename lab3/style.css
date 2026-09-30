@@ -1,0 +1,166 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+/* ID Selector */
+#profile-header {
+    background-color: #1f3c5b;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+
+/* Descendant Selector */
+#profile-header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#profile-header p {
+    margin: 5px 0 20px;
+}
+
+
+/* Class Selector */
+.job-title {
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+
+/* Hover Effect */
+nav a:hover {
+    background-color: #4f7294;
+    text-decoration: underline;
+}
+
+
+/* Main CV Container */
+.cv-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+
+/* CV Sections */
+.cv-section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border: 1px solid #d9dee3;
+    border-radius: 8px;
+}
+
+
+/* Section Headings */
+.cv-section h2 {
+    color: #1f3c5b;
+    border-bottom: 2px solid #1f3c5b;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+
+/* Education */
+.education-item {
+    padding: 10px;
+    margin-top: 10px;
+    border-left: 4px solid #1f3c5b;
+    padding-left: 15px;
+}
+
+
+/* Skills */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list li {
+    background-color: #e8eef4;
+    color: #1f3c5b;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin: 0;
+}
+
+
+/* Projects */
+.project-card {
+    border: 1px solid #d9dee3;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 6px;
+    background-color: #f8f9fa;
+}
+
+.project-card h3 {
+    color: #1f3c5b;
+}
+
+
+/* Links */
+.cv-section a {
+    color: #1f3c5b;
+    font-weight: bold;
+}
+
+.cv-section a:hover {
+    color: #4f7294;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #1f3c5b;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+
+    #profile-header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .cv-container {
+        width: 90%;
+    }
+
+    .cv-section {
+        padding: 18px;
+    }
+}
